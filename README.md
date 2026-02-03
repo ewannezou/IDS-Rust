@@ -10,7 +10,7 @@ Observer et analyser les traces laissées dans les logs
 
 Mettre en place des mécanismes de détection et de défense (Blue Team)
 
-👉 L’objectif pédagogique est de comprendre le cycle complet attaque → détection → mitigation.
+👉 L’objectif est de comprendre le cycle complet attaque → détection → mitigation.
 
 Attaque détéctées : 
 - WebEnum
