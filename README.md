@@ -4,11 +4,11 @@
 
 Ce projet consiste à concevoir et déployer un lab Purple Team afin de :
 
-Simuler des attaques réalistes (Red Team)
+Simuler des attaques réalistes
 
 Observer et analyser les traces laissées dans les logs
 
-Mettre en place des mécanismes de détection et de défense (Blue Team)
+Mettre en place des mécanismes de détection et de défense
 
 👉 L’objectif est de comprendre le cycle complet attaque → détection → mitigation.
 
