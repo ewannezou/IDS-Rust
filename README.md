@@ -51,11 +51,11 @@ Dans votre Ubuntu Server, créer un répertoire ``/opt/ids/`` et placez-y le fic
 
 Puis ajoutez un utilisateur dédié à l'IDS avec les commandes : 
 
-``sudo useradd -r -s /bin/false rmonids``
+``sudo useradd -r -s /bin/false monids``
 
-``sudo usermod -aG adm rmonids``
+``sudo usermod -aG adm monids``
 
-``sudo chown rmonids:rmonids /opt/ids/rust-ids``
+``sudo chown monids:monids /opt/ids/rust-ids``
 
 Et enfin, autorisez la capture réseau avec la commmande :
 
@@ -66,7 +66,7 @@ Et enfin, autorisez la capture réseau avec la commmande :
 ## Utilisation
 Pour activez L'IDS, lancer la commande : 
 
-``sudo -u rmonids /opt/ids/rust-ids``
+``sudo -u monids /opt/ids/rust-ids``
 
 ## Construit avec
 
