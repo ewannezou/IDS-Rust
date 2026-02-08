@@ -43,24 +43,13 @@ Pour récupérer le dépot :
 
 ``git clone https://github.com/ewannezou/IDS-Rust``
 
-``cd ids``
+Télécharger le dossier ``/deploy`` sur votre Server Ubuntu (dans le répertoire ``/tmp`` par exemple).
 
-Executez la commande ``cargo build --release`` pour compiler le fichier, puis récuperer le fichier binaire``ids-rust`` dans le dossier : ``/target/release/ids-rust``
+Entrez dans le dossier ``/deploy`` avec la commande : ``cd deploy``
 
-Dans votre Ubuntu Server, créer un répertoire ``/opt/ids/`` et placez-y le fichier ``rust-ids``
+Puis éxécutez la commande ``sudo ./install.sh ``
 
-Puis ajoutez un utilisateur dédié à l'IDS avec les commandes : 
-
-``sudo useradd -r -s /bin/false monids``
-
-``sudo usermod -aG adm monids``
-
-``sudo chown monids:monids /opt/ids/rust-ids``
-
-Et enfin, autorisez la capture réseau avec la commmande :
-
-``sudo setcap cap_net_raw,cap_net_admin+eip /opt/ids/rust-ids``
-
+L'IDS s'installera automatiquement en tant que service sur votre Server Ubunutu avec l'utilisateur ``monids``
 
 
 ## Utilisation
