@@ -53,9 +53,9 @@ L'IDS s'installera automatiquement en tant que service sur votre Server Ubunutu 
 
 
 ## Utilisation
-Pour activez L'IDS, lancer la commande : 
+Pour voir les logs en direct de L'IDS, utiliser la commande : ``journalctl -u monids -f``
 
-``sudo -u monids /opt/ids/rust-ids``
+Pour voir l'historique des logs, accéder au fichier ``ids_alert.log`` qui se trouve dans le répertoire : ``/opt/log/ids/ids_alert.log``
 
 ## Construit avec
 
