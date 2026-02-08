@@ -48,7 +48,7 @@ Télécharger le dossier ``/deploy`` sur votre Server Ubuntu (dans le répertoir
 
 Entrez dans le dossier ``/deploy`` avec la commande : ``cd deploy``
 
-Puis éxécutez la commande ``sudo ./install.sh ``
+Puis éxécutez la commande : ``sudo ./install.sh ``
 
 L'IDS s'installera automatiquement en tant que service sur votre Server Ubunutu avec l'utilisateur ``monids``
 
