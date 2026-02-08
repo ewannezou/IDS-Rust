@@ -61,11 +61,9 @@ Pour voir l'historique des logs, accéder au fichier ``ids_alert.log`` qui se tr
 
 ### Langages & Frameworks
 
-[Liste de tout ce qui permet la confection du projet avec description + lien vers la documentation]
+- Rust
+- Voir le fichier des librairies utilisées [Cargo.toml](./code_source/ids/Cargo.toml)
 
-#### Déploiement
-
-[Liste de tout ce qui permet le déploiement du projet avec description + lien vers la documentation et mise en avant des comptes, organisations et variables]
 
 ## Documentation
 
