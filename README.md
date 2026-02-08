@@ -17,7 +17,7 @@ Ce projet consiste à concevoir et déployer un lab Purple Team afin de :
 👉 L’objectif est de comprendre le cycle complet attaque → détection → mitigation.
 
 Attaque détéctées : 
-- WebEnum
+- Web Enumeration
 - PortScan
 - SSH Brute-Force
 - DDOS
