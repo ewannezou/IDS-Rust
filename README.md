@@ -37,7 +37,7 @@ Attaque détéctées :
 - Rust version > 1.83
 - Voir le fichier [Documentation](./doc_ids-rust) du dépôt
 - Une VM Ubuntu Server (cible)
-- Une VM Kali Linux pour simuler des attaques (attaquant)
+- Une VM Kali Linux pour simuler des attaques sur la cible (attaquant)
 
 ## Installation
 Pour récupérer le dépot : 
